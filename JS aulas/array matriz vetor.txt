@@ -1,0 +1,14 @@
+usuarios = ["gabriel", "bruna", "rosiley", "carlos"]
+loginsenha = [ ["hvvvpl","26262626pl"],["brunaflare","bcfl2006"],["rosi","rflch"],["carlos","chslr"] ]
+
+usuarioselecionado = 1
+
+nome = usuarios[usuarioselecionado]
+dados = loginsenha[usuarioselecionado]
+
+login = dados[0]
+senha = dados[1]
+
+console.log("bem vindo,", nome)
+console.log("seu login é:", login)
+console.log( "sua senha é:", senha)

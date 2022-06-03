@@ -1,0 +1,12 @@
+console.log("")
+-, +, *, /      (menos, mais, multiplicação, divisão)
+<, >, <=, >=    (menor, maior,menor ou igual, maior ou igual)
+%               (resto da divisão)
+++              (aumentar em um valor)
+--              (diminuir em um valor)
+**              (potencia)
+==,===          (é igual? true ou false (=== do mesmo tipo))
+!=, !==         (é diferente? true ou false(!== do mesmo tipo))
+&&              (esse E esse são verdadeiros?)
+||              (esse OU esse é verdadeiro?)
+

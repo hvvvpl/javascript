@@ -1,0 +1,42 @@
+lucro1 = 10000
+lucro2 = 15000
+lucro3 = 12000
+
+media = (lucro1 + lucro2 + lucro3) /3
+
+salario = ""
+
+
+ if (media <= 5000){
+  salario = "0"
+}
+ else if (media <= 7000){
+  salario = "5000"
+}
+ else if (media <=10000){
+  salario = "6500"
+}
+ else{
+  salario = "8000"
+}
+  
+  
+switch(salario){
+   case "0":
+    console.log("demitido, seu salario é")
+break;
+    
+   case "5000":
+    console.log("se paga, trate de melhorar")
+break;
+    
+   case "6500":
+    console.log("parabéns, continue assim")
+break;
+    
+   case "8000":
+    console.log("promovido!")
+break;
+}
+
+console.log("pagamento do mês:", salario)
